@@ -1,0 +1,25 @@
+@import "./contacto";
+@import "./header";
+@import "./index";
+@import "./pago";
+@import "./somos";
+@import "./productos";
+@import "./reset";
+
+$primary-color: pink;
+$secondary-color: violet;
+$background-image: url(https://i.ibb.co/jTVrvPp/magnolia-logo.jpg) center center / cover fixed;
+
+.fondo {
+    background-image: url(https://i.ibb.co/jTVrvPp/magnolia-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+.fondo_1 {
+        padding: 150px;
+        margin-bottom: 150px;
+   
+}
+ 
+}
