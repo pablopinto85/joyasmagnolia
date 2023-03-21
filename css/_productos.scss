@@ -16,5 +16,11 @@
         padding: 0.5rem;
         text-transform: lowercase;
       }
-    }
-  
+
+      .grow { 
+        transition: all .2s ease-in-out; 
+        }
+        
+        .grow:hover { 
+        transform: scale(1.1); 
+        }}
