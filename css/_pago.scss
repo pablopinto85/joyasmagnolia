@@ -16,6 +16,6 @@ figcaption {
   transition: all .5s;
 }
 
-.figure:hover > figcaption {
+figure:hover > figcaption {
   display:block;
   transition: all .5s;
