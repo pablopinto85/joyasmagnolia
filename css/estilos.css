@@ -83,7 +83,7 @@ form input[type=submit][type=reset] {
     display: active;
   }
   .navbar .nav-item:hover .nav-link {
-    color: blue;
+    color: tertiary;
   }
 }
 .d-block vw-100 {
@@ -107,14 +107,13 @@ form input[type=submit][type=reset] {
 }
 
 .somos {
-  margin: 80px;
   padding: 20px;
   justify-content: center;
   text-align: center;
 }
 
 .somos_text {
-  color: navy;
+  color: tertiary;
 }
 
 .card {
