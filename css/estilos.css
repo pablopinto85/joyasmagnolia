@@ -78,6 +78,14 @@ form input[type=submit][type=reset] {
   display: block;
 }
 
+@media all and (min-width: 720px) {
+  .navbar .nav-item {
+    display: active;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: blue;
+  }
+}
 .d-block vw-100 {
   content: "";
   display: block;
@@ -94,13 +102,8 @@ form input[type=submit][type=reset] {
 }
 
 .pago {
-  margin-top: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 200px;
-  padding: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .somos {
